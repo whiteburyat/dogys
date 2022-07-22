@@ -1,0 +1,113 @@
+body {
+    background-color: azure;
+    color: rgba(29, 28, 26, 0.845);
+    font-size: 16px;
+    font-family: 'Comfortaa', cursive;
+}
+
+/*общая подложка*/
+.cnt {
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* избржние */
+.im {
+    width: 400px;
+}
+
+/* тоже избржние(зачем?) */
+.mi {
+    margin-left: 150px;
+}
+
+h1 {
+    font-size: 40px;
+
+}
+
+h2 {
+    font-size: 30px;
+    color: rgb(36, 33, 33);
+}
+
+h3 {
+    font-size: 20px;
+    margin: 0px;
+}
+
+/* заголовок */
+.hd {
+    background-color: rgb(221, 150, 150);
+    height: 300px;
+    padding-top: 200px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    text-align: center;
+}
+
+/* подзаголовок */
+.cs {
+    background-color: rgb(225, 185, 185);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+/* название + ссылка */
+.tit {
+    background-color: rgba(220, 143, 113, 0.839);
+    max-width: 300px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/* красткое описание */
+.rw {
+    color: aliceblue;
+    background-color: rgba(145, 36, 36, 0.839);
+    display: block;
+    max-width: 800px;
+    padding: 10px;
+    border-radius: 17px;
+}
+
+/* основной блок */
+.dg {
+    position: relative;
+    background-color: rgba(94, 94, 255, 0.327);
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+/* характеристики */
+.lb {
+    position: absolute;
+    max-height: 180px;
+    max-width: 250px;
+    background-color: rgba(184, 254, 114, 0.779);
+    right: 0px;
+    top: 0px;
+    border-radius: 20px;
+    padding: 40px 10px;
+    font-size: 18px;
+}
+
+/* ссылка */
+a {
+    color: rgb(59, 54, 54);
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    color: antiquewhite;
+}
+
+a:visited{
+    color: rgb(61, 58, 58);
+}
